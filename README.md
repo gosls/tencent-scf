@@ -22,7 +22,7 @@ helloWorld:
 ```yml
 # serverless.yml
 helloWorld:
-  component: "@serverless/tencent-scf"
+  component: "@gosls/tencent-scf"
   inputs:
     name: myFunction1
     codeUri: ./code       # 代码目录
@@ -34,21 +34,21 @@ helloWorld:
 ```yaml
 # serverless.yml
 helloWorldTest1:
-  component: "@serverless/tencent-scf"
+  component: "@gosls/tencent-scf"
   inputs:
     name: myFunction1
     codeUri: ./code       # 代码目录
     ... ...
 
 helloWorldTest2:
-  component: "@serverless/tencent-scf"
+  component: "@gosls/tencent-scf"
   inputs:
     name: myFunction1
     codeUri: ./code       # 代码目录
     ... ...
     
 helloWorldTest3:
-  component: "@serverless/tencent-scf"
+  component: "@gosls/tencent-scf"
   inputs:
     name: myFunction1
     codeUri: ./code       # 代码目录
